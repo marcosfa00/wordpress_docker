@@ -46,4 +46,16 @@ Este servicio configura un contenedor para ejecutar una instancia de WordPress. 
 - **`wp_data`**: Define un volumen llamado `wp_data` utilizado para almacenar los datos del sitio web de WordPress.
 
 
+# Next Step
 
+Levantamos el servicio docker con:
+
+    docker compose up -d
+
+## demostración
+    
+![imagen levantamiento docker](./imagenes/levantamiento_docekr.png)
+
+Entramos en localhost:80
+
+![El nano es un discupulo de dios](./imagenes/el_nano.png)
